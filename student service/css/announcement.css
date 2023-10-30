@@ -1,0 +1,31 @@
+.abel {
+  width: 300px;
+  
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius: 5px;
+  
+  width: 100%;
+ 
+}
+
+.abel:focus {
+  background-color: lightblue;
+ 
+  transition: ease 200ms;
+}
+@media (max-width :1200px) {
+  .imp{
+      margin:auto;
+      width:60%;
+  }
+}
+          @media (max-width :700px) {
+  
+  .imp{
+      margin: auto;
+      width: 90%;
+  }
+}

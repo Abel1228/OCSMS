@@ -1,0 +1,64 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+#content
+{
+visibility: hidden;
+margin: auto;
+width: 30%;
+
+
+}
+.selection select{
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: #03A9F4;
+    border: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    
+}
+
+.selection select:focus{
+    outline:none;
+}
+
+.selection select option li{
+    background-color: #4fc3f8;
+    border-radius: 5px;
+    padding: 100px;
+}
+
+
+    .imp {
+        width: 300px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 1px solid #555;
+        outline: none;
+        border-radius: 5px;
+        width: 100%;
+       
+      }
+      
+  .imp:focus {
+        background-color: lightblue;
+       
+        transition: ease 200ms;
+      }
+
+.title{
+    color:  #03A9F4;
+    padding-bottom: 30px;
+}
+
+#select{
+float: left;
+}
+#select{
+    float:right;
+}
+    

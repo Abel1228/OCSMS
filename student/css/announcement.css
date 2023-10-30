@@ -1,0 +1,17 @@
+.title{
+    color:  #03A9F4;
+    padding: 10px 30px;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.sub_title{
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.result{
+    color:#03A9F4 ;
+}
+.total{
+    color: #00ab66;
+}

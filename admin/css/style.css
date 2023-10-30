@@ -1,0 +1,80 @@
+*{   margin: 0;   padding: 0;   box-sizing: border-box;   list-style: none;   text-decoration: none;   font-family: 'Josefin Sans', sans-serif; } 
+body{   background-color: #f3f5f9; } 
+.wrapper{   display: flex;   position: relative; } 
+.wrapper .sidebar{   width: 200px;   height: 100%;   background: #263238;   padding: 30px 0px;   position: fixed; } 
+.wrapper .sidebar h2 img{  width: 85px;  height: 80px;   text-align: center;   margin-bottom: 30px; margin-left: 45px; } 
+.wrapper .sidebar ul li{   padding: 15px;   border-bottom: 1px solid #bdb8d7;   border-bottom: 1px solid rgba(0,0,0,0.05);   border-top: 1px solid rgba(255,255,255,0.05); }    
+.wrapper .sidebar ul li a{   color: #fff;   display: block; } 
+.wrapper .sidebar ul li a .fas{   width: 25px; } 
+.wrapper .sidebar ul li:hover{   background-color: #34444d; transition: ease 1000ms;}      
+.wrapper .sidebar ul li:hover a{   color: #03A9F4; transition: ease 1000ms; }   
+
+
+.wrapper .main_content{   width: 100%;   margin-left: 200px; } 
+.wrapper .main_content .header{   padding: 20px;   background: #fff;   color: #717171;   border-bottom: 1px solid #e0e4e8; } 
+.wrapper .main_content .header p{text-align: center; font-weight: bold; font-size: large;}
+.wrapper .main_content .content{   margin: 20px;   color: #717171;   line-height: 25px; } 
+.wrapper .main_content .content div{   margin-bottom: 20px; }
+.icon{
+    width: 14px;
+    height: 14px;
+    margin-top: 1px;
+    color: white;
+}
+
+#btn{
+  
+    background-color: #03A9F4;
+    border-style: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    float: right;
+}
+
+#btn:hover{
+    background-color: #68cefd;
+    transition: ease-out 500ms;
+    }
+
+
+    #btn2{
+  
+        background-color: #03A9F4;
+        border-style: none;
+        width: 70px;
+        height: 30px;
+        border-radius: 5px;
+        color: white;
+        margin-left: 30%;
+        margin-top: 45%;
+       
+    }
+    
+    #btn2:hover{
+        background-color: #68cefd;
+        transition: ease-out 500ms;
+        }
+
+@media (max-width :700px) {
+    #btn{
+        visibility: hidden;
+    }
+    #btn2{
+        visibility: visible;
+    }
+    
+}
+
+@media (min-width :700px) {
+    #btn2{
+        visibility: hidden;
+    }
+    
+}
+
+
+
+
+

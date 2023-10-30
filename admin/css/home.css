@@ -1,0 +1,33 @@
+.dashboard{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 1fr;
+   
+   grid-gap: 50px;
+   margin-left: 80px;
+}
+.items{
+    background-color: #34444d;
+    height: 170px;
+    border-radius: 10px;
+}
+.items p{
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.items h1{
+    font-size: 30px;
+    float: right;
+    padding: 20px;
+    color: #03A9F4;
+} 
+
+@media only screen and (max-width: 768px) {
+ 
+  .dashboard{
+    grid-template-columns: 75%;
+  grid-gap: 15px;
+  }
+  }
